@@ -183,3 +183,21 @@ button:hover {
 .social-icons a:hover {
   color: #0077b5; /* cambia colore al passaggio (es: blu LinkedIn) */
 }
+
+.esperienze {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.esperienze h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.esperienze ul li {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
