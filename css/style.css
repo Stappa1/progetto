@@ -1,0 +1,184 @@
+/* Reset di margini e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Stile per l'immagine del profilo */
+  .profile-image {
+    width: 100px;  /* Imposta la larghezza della foto */
+    height: 100px; /* Imposta l'altezza per mantenerla quadrata */
+    border-radius: 50%; /* Rende l'immagine rotonda */
+    object-fit: cover; /* Assicura che l'immagine copra tutto lo spazio senza deformarsi */
+    margin-top: 10px;  /* Spazio sopra l'immagine */
+    margin-right: 20px; /* Spazio a destra dell'immagine */
+    transition: transform 0.3s ease; /* Applica una transizione fluida quando l'immagine viene trasformata (es. ingrandita) */
+  }
+
+  .profile-image:hover {
+    transform: scale(1.1); /* ingrandisce leggermente l'immagine */
+  }
+  
+  /* Stile dell'header */
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #0066cc;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #888;
+  }
+
+/* Barra di navigazione */
+.navbar {
+    background-color: #333; /* Colore di sfondo */
+    padding: 10px 0; /* Spaziatura sopra e sotto */
+    position: fixed; /* Rende la barra fissa in cima */
+    top: 0;
+    width: 96%; /* Prende tutta la larghezza */
+    z-index: 1000; /* Assicura che sia sopra al resto del contenuto */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Rimuove i punti elenco */
+    display: flex; /* Dispone gli elementi in fila */
+    justify-content: center; /* Allinea gli elementi al centro */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Prende tutta la larghezza */
+  }
+  
+  .navbar li {
+    margin: 0 15px; /* Spaziatura tra i link */
+    
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: white; /* Colore del testo */
+    font-size: 1.2rem; /* Dimensione del testo */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transizione per l'effetto hover */
+  }
+  
+  .navbar a:hover {
+    color: #ffa500; /* Colore al passaggio del mouse */
+  }
+  
+  /* Spazio sopra il contenuto per evitare che la barra di navigazione si sovrapponga */
+body {
+    padding-top: 60px;
+  }
+
+  /* Stile per il banner */
+  .banner {
+    background-image: url('/giorgiostapane_portfolio/img/banner.jpg'); /* Cambia il percorso dell'immagine */
+    background-size: cover; /* Assicura che l'immagine copra tutta l'area del banner */
+    background-position: center; /* Centra l'immagine */
+    height: 300px; /* Imposta l'altezza del banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Colore del testo */
+    text-align: center;
+    font-size: 36px; /* Imposta la dimensione del testo */
+    font-family: Arial, sans-serif; /* Font del testo */
+}
+
+/* Opzionale: per il testo che si sovrappone all'immagine, puoi aggiungere un filtro di opacità */
+.banner-text {   
+    padding: 20px;
+    display: flex;
+    flex: 1; /* Fa sì che il testo occupi una parte della larghezza e stia a lato  */
+}
+
+button {
+  margin-top: 20px; /* Distanza tra il testo e il bottone */
+  padding: 10px 20px; /* Impostazioni di padding per il bottone */
+  background-color: #4CAF50; /* Colore di sfondo verde */
+  color: white; /* Colore del testo bianco */
+  border: none; /* Rimuove il bordo */
+  cursor: pointer; /* Cambia il cursore a mano quando si passa sopra */
+}
+
+button a {
+  color: white; /* Colore del testo del link bianco */
+  text-decoration: none; /* Rimuove la sottolineatura dal link */
+}
+
+button:hover {
+  background-color: #45a049; /* Cambia colore del bottone quando ci passi sopra */
+}
+
+/* icone contatti social */
+.social-icons {
+  text-align: center;
+  margin-top: -70px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 30px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* cambia colore al passaggio (es: blu LinkedIn) */
+}
