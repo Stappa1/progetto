@@ -138,6 +138,7 @@ body {
     text-align: center;
     font-size: 36px; /* Imposta la dimensione del testo */
     font-family: Arial, sans-serif; /* Font del testo */
+    object-fit: cover /* l’immagine si adatta riempiendo l’area, senza deformarsi */
 }
 
 /* Opzionale: per il testo che si sovrappone all'immagine, puoi aggiungere un filtro di opacità */
