@@ -127,7 +127,7 @@ body {
 
   /* Stile per il banner */
   .banner {
-    background-image: url('/progetto/img/banner.jpg'); /* Cambia il percorso dell'immagine */
+    background-image: url('../img/banner.jpg'); /* Cambia il percorso dell'immagine */
     background-size: cover; /* Assicura che l'immagine copra tutta l'area del banner */
     background-position: center; /* Centra l'immagine */
     height: 300px; /* Imposta l'altezza del banner */
